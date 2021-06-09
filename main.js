@@ -19,7 +19,7 @@ Webcam.attach('#camera') ;
 
 console.log('ml5 Version', ml5.version)
 
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/AixIhXZ1A/', modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/AixIhXZ1A/model.json', modelLoaded);
 
 function modelLoaded() {
     console.log("Model Loaded");
